@@ -29,6 +29,41 @@ body {
   font-size: 16px;
 }
 
+.lang-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-md);
+}
+
+.lang-btn {
+  padding: 8px 16px;
+  border: 2px solid var(--accent);
+  background: white;
+  color: var(--accent);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.lang-btn:hover {
+  background: rgba(102, 126, 234, 0.1);
+}
+
+.lang-btn.active {
+  background: var(--accent);
+  color: white;
+}
+
 .container {
   max-width: var(--maxw);
   margin: 0 auto;
@@ -282,6 +317,17 @@ footer a:hover {
     padding: 12px;
   }
 
+  .lang-switcher {
+    top: 10px;
+    right: 10px;
+    padding: 6px;
+  }
+
+  .lang-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
   .container {
     padding: 24px 20px;
     border-radius: 12px;
@@ -332,6 +378,10 @@ footer a:hover {
   body {
     background: white;
     padding: 0;
+  }
+
+  .lang-switcher {
+    display: none;
   }
 
   .container {

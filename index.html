@@ -12,6 +12,10 @@
   <link rel="author" href="https://facudee-portfolio.vercel.app/">
 </head>
 <body>
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-lang="es">ES</button>
+    <button class="lang-btn" data-lang="en">EN</button>
+  </div>
   <main class="container">
     <header class="header">
       <img src="https://avatars.githubusercontent.com/u/134338005?v=4" alt="Facundo Diorio" class="profile-photo">
@@ -22,12 +26,17 @@
       <p><button class="cv-btn" onclick="window.print()">Descargar CV (PDF)</button></p>
     </header>
 
-    <section>
+    <section class="lang-content" data-lang="es">
       <h2>Perfil profesional</h2>
       <p>Desarrollador Web Full Stack con formación técnica en desarrollo web y formación previa en Comunicación Social. Experiencia en la creación de aplicaciones web (frontend y backend), APIs REST y sistemas con bases de datos relacionales y no relacionales. Me enfoco en aplicar buenas prácticas de desarrollo, escribir código limpio y construir interfaces intuitivas. Busco mi primer puesto formal como desarrollador web para seguir creciendo profesionalmente en equipos ágiles.</p>
     </section>
 
-    <section>
+    <section class="lang-content" data-lang="en" style="display: none;">
+      <h2>Professional Profile</h2>
+      <p>Full Stack Web Developer with technical training in web development and background in Social Communication. Experience in creating web applications (frontend and backend), REST APIs and systems with relational and non-relational databases. I focus on applying development best practices, writing clean code and building intuitive interfaces. I am seeking my first formal position as a web developer to continue growing professionally in agile teams.</p>
+    </section>
+
+    <section class="lang-content" data-lang="es">
       <h2>Habilidades técnicas</h2>
       <ul>
         <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+), React, Vite, Responsive Design</li>
@@ -38,7 +47,18 @@
       </ul>
     </section>
 
-    <section>
+    <section class="lang-content" data-lang="en" style="display: none;">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+), React, Vite, Responsive Design</li>
+        <li><strong>Backend:</strong> Node.js, NestJS, Express, REST APIs, JWT</li>
+        <li><strong>Databases:</strong> MySQL, PostgreSQL, SQLite, MongoDB</li>
+        <li><strong>ORM / Tools:</strong> TypeORM, Prisma</li>
+        <li><strong>Others:</strong> Git, GitHub, Vite, Firebase</li>
+      </ul>
+    </section>
+
+    <section class="lang-content" data-lang="es">
       <h2>Experiencia relevante</h2>
       <ul class="projects">
         <li>
@@ -56,7 +76,25 @@
       </ul>
     </section>
 
-    <section>
+    <section class="lang-content" data-lang="en" style="display: none;">
+      <h2>Relevant Experience</h2>
+      <ul class="projects">
+        <li>
+          <strong>January 2025 - Present: Segundo Estreno (Final project)</strong>
+          <div class="meta">Role: Fullstack developer</div>
+          <p>Platform for buying and selling used clothing (promoting Circular Fashion). Backend development from scratch with NestJS and TypeORM; MySQL database. Frontend with React + Vite. JWT authentication. Basic services deployment.</p>
+          <div class="links"><a href="https://segundo-estreno.web.app/" target="_blank">Demo</a></div>
+        </li>
+        <li>
+          <strong>Jun 2024 - Nov 2024: Project - News website (reversion)</strong>
+          <div class="meta">Role: Developer (frontend + backend)</div>
+          <p>Reversion and update of a local news portal. Frontend with React.js; backend with Node.js (microservices/sagas); PostgreSQL database. Production deployment experience.</p>
+          <div class="links"><a href="https://fuentecolgante.com.ar/" target="_blank">Website</a></div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="lang-content" data-lang="es">
       <h2>Proyectos destacados (Prácticas pre-profesionales)</h2>
       <ul class="projects">
         <li>
@@ -87,7 +125,38 @@
       </ul>
     </section>
 
-    <section>
+    <section class="lang-content" data-lang="en" style="display: none;">
+      <h2>Featured Projects (Pre-professional practice)</h2>
+      <ul class="projects">
+        <li>
+          <strong>Segundo Estreno</strong> - Fullstack
+          <div class="meta">NestJS • React • Vite • MySQL • TypeORM • JWT</div>
+          <div class="links"><a href="https://github.com/FacuDee/segundoEstrenoApp" target="_blank">Code (frontend)</a> • <a href="https://github.com/FacuDee/segundo-estreno-backend" target="_blank">Code (backend)</a> • <a href="https://segundo-estreno.web.app/" target="_blank">Demo</a></div>
+        </li>
+        <li>
+          <strong>OlaEventos</strong> - Fullstack (Cultural agenda)
+          <div class="meta">NestJS • React • Vite • PostgreSQL • Prisma • JWT • Bootstrap</div>
+          <div class="links"><a href="https://github.com/FacuDee/OlaEventos" target="_blank">Code</a></div>
+        </li>
+        <li>
+          <strong>Encuestadora</strong> - Fullstack (Node.js / SQLite)
+          <div class="meta">Node.js • Express • SQLite</div>
+          <div class="links"><a href="https://github.com/FacuDee/encuesta-node-sqlite" target="_blank">Code / Demo</a></div>
+        </li>
+        <li>
+          <strong>SportStream</strong> - Fullstack (streaming + chat)
+          <div class="meta">Node.js • Express • TypeScript • MongoDB • Socket.IO • React</div>
+          <div class="links"><a href="https://github.com/FacuDee/SportStream" target="_blank">Code</a></div>
+        </li>
+        <li>
+          <strong>Pixel Arte, IronFit, BrewHaven, HuertaEnCasa, Tienda electrónica</strong> - Frontend
+          <div class="meta">HTML • CSS • JavaScript • Bootstrap • Firebase (depending on project)</div>
+          <p>See GitHub profile (pinned repos) and <a href="https://facudee-portfolio.vercel.app/" target="_blank">portfolio</a></p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="lang-content" data-lang="es">
       <h2>Formación</h2>
       <ul>
         <li>Desarrollador Web Full Stack - CEPIT (Sede Olavarría) - Duración: 2 años</li>
@@ -97,7 +166,17 @@
       </ul>
     </section>
 
-    <section>
+    <section class="lang-content" data-lang="en" style="display: none;">
+      <h2>Education</h2>
+      <ul>
+        <li>Full Stack Web Developer - CEPIT (Olavarría Campus) - Duration: 2 years</li>
+        <li>Web Developer Trainee Course - ITECO - Duration: 6 months</li>
+        <li>Introduction to Web Development Course - UNICEN - Duration: 6 months</li>
+        <li>Social Communication - National University of La Plata - Duration: 5 years</li>
+      </ul>
+    </section>
+
+    <section class="lang-content" data-lang="es">
       <h2>Idiomas</h2>
       <ul>
         <li><strong>Español:</strong> Nativo</li>
@@ -105,13 +184,34 @@
       </ul>
     </section>
 
-    <section>
+    <section class="lang-content" data-lang="en" style="display: none;">
+      <h2>Languages</h2>
+      <ul>
+        <li><strong>Spanish:</strong> Native</li>
+        <li><strong>English:</strong> Speaking (basic) reading comprehension (intermediate)</li>
+      </ul>
+    </section>
+
+    <section class="lang-content" data-lang="es">
       <h2>Disponibilidad y objetivo</h2>
       <p>Busco incorporarme como desarrollador web (junior / Jr. Full Stack) en equipos donde pueda aportar con los proyectos ya realizados, aprender en entornos productivos y crecer profesionalmente. Disponibilidad para trabajo remoto y/o presencial si es en la zona de Olavarría.</p>
     </section>
 
-    <section>
+    <section class="lang-content" data-lang="en" style="display: none;">
+      <h2>Availability and Objective</h2>
+      <p>I am looking to join as a web developer (junior / Jr. Full Stack) in teams where I can contribute with the projects I have already completed, learn in productive environments and grow professionally. Available for remote work and/or on-site if in the Olavarría area.</p>
+    </section>
+
+    <section class="lang-content" data-lang="es">
       <h2>Links útiles</h2>
+      <ul>
+        <li><a href="https://facudee-portfolio.vercel.app/" target="_blank">Portfolio</a></li>
+        <li><a href="https://github.com/FacuDee" target="_blank">GitHub</a></li>
+      </ul>
+    </section>
+
+    <section class="lang-content" data-lang="en" style="display: none;">
+      <h2>Useful Links</h2>
       <ul>
         <li><a href="https://facudee-portfolio.vercel.app/" target="_blank">Portfolio</a></li>
         <li><a href="https://github.com/FacuDee" target="_blank">GitHub</a></li>
@@ -122,5 +222,28 @@
       <p>© 2025 FacuDee - <a href="https://facudee-portfolio.vercel.app/" target="_blank">Portfolio</a></p>
     </footer>
   </main>
+  <script>
+    const langButtons = document.querySelectorAll('.lang-btn');
+    const langContents = document.querySelectorAll('.lang-content');
+
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const selectedLang = btn.dataset.lang;
+        
+        // Actualizar botones activos
+        langButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        // Mostrar/ocultar contenido según idioma
+        langContents.forEach(content => {
+          if (content.dataset.lang === selectedLang) {
+            content.style.display = 'block';
+          } else {
+            content.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>

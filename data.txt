@@ -1,0 +1,88 @@
+
+Facundo Diorio
+
+Desarrollador Web Full Stack
+
+Contacto
+- Email: facu.d.1989@gmail.com
+- Teléfono: +54 9 221 547 4107
+- Ubicación: Olavarría, Buenos Aires, Argentina
+- Fecha de nacimiento: 17/05/1989
+- Portfolio: https://facudee-portfolio.vercel.app/
+- GitHub: https://github.com/FacuDee
+- LinkedIn: https://www.linkedin.com/in/facundo-diorio-22531b32b/
+
+
+Perfil profesional
+------------------
+Desarrollador Web Full Stack con formación técnica en desarrollo web y formación previa en Comunicación Social. Experiencia en la creación de aplicaciones web (frontend y backend), APIs REST y sistemas con bases de datos relacionales y no relacionales. Me enfoco en aplicar buenas prácticas de desarrollo, escribir código limpio y construir interfaces intuitivas. Busco mi primer puesto formal como desarrollador web para seguir creciendo profesionalmente en equipos ágiles.
+
+
+Habilidades técnicas
+--------------------
+- Frontend: HTML5, CSS3, JavaScript (ES6+), React, Vite, Responsive Design
+- Backend: Node.js, NestJS, Express, APIs REST, JWT
+- Bases de datos: MySQL, PostgreSQL, SQLite, MongoDB
+- ORM / Tools: TypeORM, Prisma
+- Otras: Git, GitHub, Vite, Firebase
+
+
+Experiencia relevante
+---------------------
+- Enero 2025 — Actualidad: Segundo Estreno (Trabajo práctico final)
+	- Rol: Fullstack developer
+	- Descripción: Plataforma para compra y venta de ropa usada (promoviendo Moda Circular). Desarrollo del backend con NestJS y TypeORM; base de datos MySQL. Frontend con React + Vite. Autenticación con JWT. Deploy de servicios básicos.
+	- Demo: https://segundo-estreno.web.app/
+
+- Jun 2024 — Nov 2024: Proyecto - Sitio de noticias (reversión)
+	- Rol: Desarrollador (frontend + backend)
+	- Descripción: Reversión y actualización de un portal de noticias local. Frontend con React.js; backend con Node.js (microservicios/sagas); base de datos PostgreSQL. Experiencia en deploy para producción.
+    - Página web: https://fuentecolgante.com.ar/
+
+
+Proyectos destacados (Prácticas pre-profesionales)
+--------------------
+- Segundo Estreno — Fullstack
+	- Tecnologías: NestJS, React, Vite, MySQL, TypeORM, JWT
+	- Código / Demo: https://github.com/FacuDee/segundoEstrenoApp | https://github.com/FacuDee/segundo-estreno-backend | https://segundo-estreno.web.app/
+
+- OlaEventos — Fullstack (Agenda cultural)
+	- Tecnologías: NestJS, React, Vite, PostgreSQL, Prisma, JWT, Bootstrap
+	- Repo: https://github.com/FacuDee/OlaEventos
+
+- Encuestadora — Fullstack (Node.js / SQLite)
+	- Tecnologías: Node.js, Express, SQLite
+	- Repo / Demo: https://github.com/FacuDee/encuesta-node-sqlite
+
+- SportStream — Fullstack (transmisión + chat)
+	- Tecnologías: Node.js, Express, TypeScript, MongoDB, Socket.IO, React
+	- Repo: https://github.com/FacuDee/SportStream
+
+- Pixel Arte, IronFit, BrewHaven, HuertaEnCasa, Tienda electrónica — Frontend
+	- Tecnologías: HTML, CSS, JavaScript, Bootstrap, Firebase (según proyecto)
+	- Repositorios/Demos: ver perfil de GitHub (pinned repos) y portfolio
+
+
+Formación
+---------
+- Desarrollador Web Full Stack — CEPIT (Sede Olavarría) — Duración: 2 años
+- Curso Desarrollador Web Trainee - ITECO - Duración: 6 meses
+- Curso Introducción al Desarrollo Web - UNICEN - Duración: 6 meses
+- Comunicación Social — Universidad Nacional de La Plata — Duración: 5 años
+
+
+Idiomas
+-------
+- Español: Nativo
+- Inglés: Oral (básico) lectocomprensión (intermedio)
+
+
+Disponibilidad y objetivo
+-------------------------
+Busco incorporarme como desarrollador web (junior / Jr. Full Stack) en equipos donde pueda aportar con los proyectos ya realizados, aprender en entornos productivos y crecer profesionalmente. Disponibilidad para trabajo remoto y/o presencial si es en la zona de Olavarría. 
+
+
+Links útiles
+------------
+- Portfolio: https://facudee-portfolio.vercel.app/
+- GitHub: https://github.com/FacuDee
